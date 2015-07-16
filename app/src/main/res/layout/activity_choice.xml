@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/CardView"
+    android:orientation="vertical"
+    android:background="@color/background_floating_material_light"
+    android:layout_weight="100"
+    >
+    <!-- A CardView that contains a TextView -->
+<android.support.v7.widget.CardView
+xmlns:card_view="http://schemas.android.com/apk/res-auto"
+android:id="@+id/card_view1"
+    card_view:cardElevation="100dp"
+android:layout_width="match_parent"
+    android:layout_weight="30"
+    android:layout_margin="5dp"
+android:layout_height="0dp"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="371dp"
+            android:layout_height="99dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/niti_aayog"
+            android:layout_weight="566.67" />
+<TextView
+    android:id="@+id/info_text1"
+    android:text="NITI aayog"
+    android:layout_margin="3dp"
+    android:textSize="20sp"
+    android:layout_weight="608.33"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view2"
+
+        card_view:cardElevation="100dp"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="30"
+        android:layout_height="0dp"
+        >
+        <LinearLayout
+            android:weightSum="100"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/secondary_education" />
+
+        <TextView
+            android:id="@+id/info_text2"
+            android:text="NEP Secondary education"
+            android:layout_margin="3dp"
+            android:textSize="20sp"
+            android:layout_weight="30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view3"
+        android:layout_margin="5dp"
+        card_view:cardElevation="100dp"
+        android:layout_width="match_parent"
+        android:layout_weight="30"
+        android:layout_height="0dp"
+        >
+        <LinearLayout
+            android:weightSum="100"
+            android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="99dp"
+                android:src="@drawable/higher_education"/>
+        <TextView
+            android:id="@+id/info_text3"
+            android:text="NEP higher education"
+            android:textSize="20sp"
+           android:layout_marginTop="2dp"
+            android:layout_weight="50"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+</LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

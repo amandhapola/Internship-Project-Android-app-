@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarTheme"
+        parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <!--<item name="android:actionBarTabStyle">@style/MyActionBarTabs</item>-->
+    </style>
+
+    <style name="MyActionBar"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#283593</item>
+        <item name="android:backgroundStacked">#3949AB</item>
+        <item name="android:backgroundSplit">#283593</item>
+    </style>
+    <style name="MyActionBarTabs"
+        parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <!-- tab indicator -->
+        <item name="android:background">#3F51B5</item>
+
+    </style>
+</resources>

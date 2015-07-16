@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NewSurvey</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">National Informatics Centre</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_choice">choice</string>
+    <string name="title_activity_question">Question</string>
+    <string name="title_activity_single_fragment">singleFragment</string>
+    <string name="title_activity_multi_fragment">multiFragment</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+    <string-array name="planets_array">
+        <item>Home</item>
+        <item>option1</item>
+        <item>option2</item>
+        <item>option3</item>
+    </string-array>
+</resources>
+
+
